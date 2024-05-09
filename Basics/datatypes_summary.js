@@ -32,4 +32,28 @@ const myFunction = function() {
     console.log("Hello World");
 }
 
-console.log(typeof movies);
+// console.log(typeof movies);
+
+// ********************** Memory Management ************************
+
+// Stack (primitive), Heap (Non-primitive)
+
+let myYoutubeName = "LuckySings"
+
+let anotherName = myYoutubeName;
+anotherName = "code aur Lucky"
+
+// console.log(myYoutubeName);
+// console.log(anotherName);
+
+let user1 = {
+    email: "patillakhan25@gmail.com",
+    upi: "user@ybl"
+}
+
+let user2 = user1
+
+user2.email = "lakhan.patil008@gmail.com"
+
+console.log(user1.email);
+
