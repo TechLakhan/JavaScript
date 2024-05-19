@@ -44,12 +44,29 @@ const dbUser = [
 
 // console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
+// console.log(Object.keys(tinderUser));
 
-console.log(Object.values(tinderUser));
+// console.log(Object.values(tinderUser));
 
-console.log(Object.entries(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
-console.log(dbUser.toString());
+
+const course = {
+    courseName: "JS in Hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course // -> Objects restructuring
+
+console.log(instructor);
+
+// {
+//     "name": "Lakhan",
+//     "course": "Chai Aur Code",
+//     "price": "free"
+// }
